@@ -7,3 +7,5 @@
     classic: "{{ item.classic }}"
   loop: "{{ snap_list }}"
   notify: "{{ snap_handlers_list | default([]) }}"
+  tags:
+  - snap

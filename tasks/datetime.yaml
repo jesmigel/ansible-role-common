@@ -4,7 +4,11 @@
     name: ntp
     state: started
     enabled: true
+  tags:
+  - datetime
 
 - name: "Set timezone to {{ timezone }}"
   community.general.timezone:
     name: "{{ timezone }}"
+  tags:
+  - datetime
