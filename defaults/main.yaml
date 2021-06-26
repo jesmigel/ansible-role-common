@@ -8,6 +8,7 @@ binaries:
 - python3-venv
 - gcc
 - snap
+- iftop
 
 handler_list:
 - restart ntp
