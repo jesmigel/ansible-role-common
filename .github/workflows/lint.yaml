@@ -35,4 +35,4 @@ jobs:
       run: ansible-lint .
 
     - name: Test playbook
-      run: ansible-playbook -i inventories/github playbook.yaml
+      run: ansible-playbook -i inventories/github -t apt_update,apt_install,ntp,snap playbook.yaml
