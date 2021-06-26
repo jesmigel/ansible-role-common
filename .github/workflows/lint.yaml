@@ -43,5 +43,5 @@ jobs:
       run: which ansible-playbook
 
     - name: Test playbook
-      run: ansible-playbook --connection=local 127.0.0.1 playbook.yml
+      run: ansible-playbook --connection=local playbook.yml
 
