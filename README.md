@@ -1,4 +1,6 @@
 # ansible-role-common
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Ansible common role. Ansible base role for building DevOps environments
 
 ### Dependencies
