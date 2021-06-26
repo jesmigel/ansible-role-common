@@ -35,4 +35,4 @@ jobs:
       run: ansible-lint .
 
     - name: Test playbook
-      run: ls -l
+      run: ansible-playbook --connection=local playbook.yaml
