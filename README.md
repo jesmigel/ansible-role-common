@@ -34,9 +34,9 @@ Ansible common role. Ansible base role for building DevOps environments
     - `user`: # ESXi user id
     - `password`: # ESXi password
     - `networks`: # Network in ESXi. It must be on the same subnet as the end user
-    *Optional*
-    - `nameserver_list`: # List of custom nameservers.
-    - `nameserver_test`: # fqdn resolved by a DNS stated in `nameserver_list`
+    - Optional
+        - `nameserver_list`: # List of custom nameservers.
+        - `nameserver_test`: # fqdn resolved by a DNS stated in `nameserver_list`
 
 ### Usage
 This repository is used as an ansible role. It can be referenced through a requirements.yaml file.
