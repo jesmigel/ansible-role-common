@@ -1,6 +1,9 @@
-.PHONY: up down clean status config login provision
+.PHONY: address clean conffig down lint login provision status up venv_init
 
 _VM=time vagrant
+
+address:
+	$(call venv_exec,.venv,$(_VM) address)
 
 clean:
 	$(call venv_exec,.venv,$(_VM) destroy)
@@ -11,6 +14,9 @@ config:
 
 down:
 	$(call venv_exec,.venv,$(_VM) suspend)
+
+lint:
+	$(call venv_exec,.venv,ansible-lint .)
 
 login:
 	$(call venv_exec,.venv,$(_VM) ssh)
