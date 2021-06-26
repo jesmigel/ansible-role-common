@@ -40,6 +40,10 @@ Ansible common role. Ansible base role for building DevOps environments
         - `nameserver_list`: # List of custom nameservers.
         - `nameserver_test`: # fqdn resolved by a DNS stated in `nameserver_list`
 
+### Tests
+- `Lint`: yamllint and ansible-lint. This is automated through Github Actions
+- `Functional`: Tested through Vagrant and ESXi. To be added in github actions
+
 ### Usage
 This repository is used as an ansible role. It can be referenced through a requirements.yaml file.
 ```yaml
