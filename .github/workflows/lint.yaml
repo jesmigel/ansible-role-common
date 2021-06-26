@@ -35,4 +35,4 @@ jobs:
       run: ansible-lint .
 
     - name: Test playbook
-      run: ansible-playbook --connection=local playbook.yaml
+      run: ansible-playbook --connection=local --inventory 127.0.0.1 --limit 127.0.0.1 playbook.yaml
