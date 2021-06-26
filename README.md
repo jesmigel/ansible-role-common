@@ -1,5 +1,5 @@
 # ansible-role-common
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![CI](https://github.com/jesmigel/ansible-role-common/actions/workflows/lint.yaml/badge.svg?branch=main)](https://github.com/jesmigel/ansible-role-common/actions/workflows/lint.yaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![CI](https://github.com/jesmigel/ansible-role-common/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/jesmigel/ansible-role-common/actions/workflows/build.yaml)
 
 Ansible common role. Ansible base role for building DevOps environments
 
