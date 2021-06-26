@@ -7,4 +7,4 @@
     import_tasks: tasks/main.yaml
     become: true
   handlers:
-  - include_tasks: handlers/main.yaml
+  - include: handlers/main.yaml
