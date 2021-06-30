@@ -59,8 +59,4 @@ ansible-galaxy role install -r requirements.yaml -p $ROLE_DIRECTORY
 
 ### ToDo
 1. DevOps CI/CD test
-    - Github Actions
     - Jenkins
-2. Badges
-    - License
-    - CI/CD test results
