@@ -24,7 +24,7 @@
 - name: Apply netplan config
   become: true
   shell:
-    cmd: "netplan apply && nslookup {{ nameserver_test }}"
+    cmd: "netplan apply && sleep 3 && nslookup {{ nameserver_test }}"
   when: nameserver_list is defined and (nameserver_list|length>0)
   retries: 3
   delay: 3
